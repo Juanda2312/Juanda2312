@@ -1,6 +1,6 @@
 # Hi there, I'm Juan David 👋
 
-## 🎓 Aspiring Systems Engineer | Full Stack Developer
+## 🎓 Aspiring Systems Engineer | Junior Full Stack Developer
 
 Computer Science student at **Universidad del Quindío**, passionate about
 building software and continuously expanding my technical skills.
