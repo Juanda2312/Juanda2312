@@ -13,18 +13,36 @@ Computer Science @ **Universidad del Quindío** · Armenia, CO
 
 ---
 
-## 📊 GitHub Stats
+## 📈 GitHub Stats
 
 <div align="center">
 
-![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Juanda2312&theme=tokyonight)
-![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Juanda2312&theme=tokyonight)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Juanda2312&theme=tokyonight)](https://github.com/Juanda2312)
+
+</div>
+
+<div align="center">
+
+[![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Juanda2312&theme=tokyonight)](https://github.com/Juanda2312)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Juanda2312&theme=tokyonight)](https://github.com/Juanda2312)
+
+</div>
+
+<div align="center">
+
+[![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Juanda2312&theme=tokyonight)](https://github.com/Juanda2312)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Juanda2312&theme=tokyonight&utcOffset=-5)](https://github.com/Juanda2312)
+
+</div>
+
+<div align="center">
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Juanda2312&theme=tokyonight&hide_border=true)
 
 </div>
 
 ---
+
 
 ## 🛠️ Tech Stack
 
