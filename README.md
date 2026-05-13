@@ -17,8 +17,8 @@ Computer Science @ **Universidad del Quindío** · Armenia, CO
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Juanda2312&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Juanda2312&layout=compact&theme=tokyonight&hide_border=true)
+![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Juanda2312&theme=tokyonight)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Juanda2312&theme=tokyonight)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Juanda2312&theme=tokyonight&hide_border=true)
 
