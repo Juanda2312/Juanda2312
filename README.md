@@ -6,6 +6,7 @@
 Studying Computer Science at **Universidad del Quindío** · Armenia, Colombia 🇨🇴
 
 I build web backends with **Spring Boot**, frontends with **Angular** and **React**, and mobile apps with **Flutter**.
+I enjoy turning data-structure theory into real, working products.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-david-tapiero-montoya-4834b02b3)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:juandavidtapiero8@gmail.com)
@@ -19,7 +20,7 @@ I build web backends with **Spring Boot**, frontends with **Angular** and **Reac
 <br>
 
 ### Hola, soy Juan David 👋
-Estudiante de **Ciencias de la Computación** en la **Universidad del Quindío** (Armenia, Colombia) y desarrollador junior full stack y móvil. Construyo backends con **Spring Boot**, frontends con **Angular** y **React**, y apps móviles con **Flutter**.
+Estudiante de **Ciencias de la Computación** en la **Universidad del Quindío** (Armenia, Colombia) y desarrollador junior full stack y móvil. Construyo backends con **Spring Boot**, frontends con **Angular** y **React**, y apps móviles con **Flutter**. Me gusta convertir la teoría de estructuras de datos en productos reales que funcionan.
 
 #### 🏢 [PropTech](https://github.com/Juanda2312/PropTech) — Plataforma Inteligente de Gestión Inmobiliaria
 Un sistema full stack que va más allá del CRUD: gestiona inmuebles, clientes, asesores, visitas y operaciones, y analiza el comportamiento comercial. Sus colecciones principales (tabla hash, árbol AVL, grafo, pila, colas y lista enlazada) son **implementaciones propias, sin `java.util`**.
@@ -37,6 +38,15 @@ Una app Android 100% offline para organizar las compras: gestiona productos y su
 - Dos vistas: **plana** y **por supermercado**, con tachado sincronizado
 - Deslizar para quitar ítems con opción de deshacer, y presupuesto opcional (saldo en verde/rojo)
 - APK de release firmado, sin permiso de internet y con datos guardados localmente
+
+#### 📦 [Sistema de Gestión de Proveedores y Productos](https://github.com/ShanT237/relational-inventory-db) — Proyecto de Bases de Datos
+Proyecto final de *Bases de Datos I* en la Universidad del Quindío: una aplicación de escritorio que registra qué proveedores pueden suministrar qué productos, hecha **sin frameworks** (biblioteca estándar de Python y librerías puntuales) sobre una base de datos normalizada en SQL Server. Proyecto en equipo con [Santiago Torres](https://github.com/ShanT237) y [José Bedoya](https://github.com/thelegendsxv).
+
+- **Diseño relacional:** 9 tablas normalizadas, diagrama entidad-relación, diagrama relacional y diccionario de datos; la relación muchos a muchos proveedor–producto se resuelve con una tabla intermedia (precio y días de entrega)
+- **SQL avanzado:** consultas `JOIN` de varias tablas y subconsultas, todas parametrizadas para evitar inyección SQL
+- **Acceso por roles:** un administrador, usuarios tradicionales (CRUD completo) y esporádicos (solo consulta), con contraseñas cifradas con PBKDF2 y bitácora de entradas y salidas
+- **Reportes en PDF** con filtros elegidos por el usuario, generados con `reportlab`
+- **Arquitectura en tres capas** (presentación, lógica y datos) y despliegue de SQL Server con Docker
 
 *Más abajo encuentras el stack tecnológico, certificaciones y estadísticas.*
 
@@ -76,6 +86,22 @@ A 100% offline Android app to organize grocery shopping: manage products and sup
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
 ![Provider](https://img.shields.io/badge/State-Provider-5C2D91?style=flat)
+
+---
+
+### 📦 [Suppliers & Products Management System](https://github.com/ShanT237/relational-inventory-db) — Relational Database Project
+Final project for *Databases I* at Universidad del Quindío: a desktop application that tracks which suppliers can provide which products, built **without frameworks** (Python standard library plus targeted libraries) on top of a normalized SQL Server database. Team project with [Santiago Torres](https://github.com/ShanT237) and [José Bedoya](https://github.com/thelegendsxv).
+
+- **Relational design:** 9 normalized tables, ER diagram, relational diagram and data dictionary; the many-to-many supplier–product relation is resolved with a junction table (price and delivery days)
+- **Advanced SQL:** multi-table `JOIN` queries and subqueries (e.g. suppliers priced above average, products with no supplier), all parameterized to prevent SQL injection
+- **Role-based access:** one administrator, traditional users (full CRUD) and occasional users (read-only), with PBKDF2-hashed passwords and a login/logout audit log
+- **PDF reports** with user-selected filters, generated with `reportlab`
+- **Three-layer architecture** (presentation, business logic, data access) and a Docker-based setup for SQL Server
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Tkinter](https://img.shields.io/badge/Tkinter-GUI-3776AB?style=flat)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
 ---
 
