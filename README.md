@@ -31,6 +31,15 @@ Un sistema full stack que va más allá del CRUD: gestiona inmuebles, clientes, 
 - **PropBot:** asistente con IA (LLM vía OpenRouter) con datos en vivo de la plataforma
 - **Dos roles:** panel de administración y portal del cliente, con persistencia en JSON
 
+#### 🎮 [E-Commerce Marketplace Gamer](https://github.com/ShanT237/EcommerceProductosGamer) — Backend de Marketplace Multi-Vendedor
+Un marketplace multi-vendedor de productos gaming (periféricos, mobiliario de setup, juegos físicos, licencias digitales y combos), desarrollado para *Programación Avanzada / Ingeniería de Software* en la Universidad del Quindío con **Domain-Driven Design** y **Clean Architecture**. Proyecto en equipo con [Santiago Torres](https://github.com/ShanT237) y [José Bedoya](https://github.com/thelegendsxv); el frontend en Angular está planeado.
+
+- **Modelo de dominio rico:** raíces de agregado (`Producto`, `Compra`), objetos de valor como `record` de Java y constructores privados con métodos de fábrica que protegen las invariantes (stock nunca negativo, reembolso dentro de 48 h, una reseña por compra, productos exclusivos, preventas)
+- **37 casos de uso** de compras, catálogo, combos, reseñas y puntos, wishlist y notificaciones, cuentas y reportes
+- **Seguridad:** Spring Security con JWT (roles `COMPRADOR` / `VENDEDOR`), contraseñas con BCrypt y la identidad del usuario siempre tomada del token
+- **API REST** documentada con Swagger, con búsqueda paginada de catálogo y reportes de ventas y más vendidos resueltos en la base de datos (H2 por defecto, perfil MariaDB)
+- **Pruebas:** repositorios con `@DataJpaTest`, endpoints con seguridad (401 / 403 / 201) y una prueba de integración de punta a punta con `MockMvc`
+
 #### 🛒 [ListaMercado](https://github.com/Juanda2312/ListaMercado) — App Offline para Organizar el Mercado
 Una app Android 100% offline para organizar las compras: gestiona productos y supermercados, arma la lista con totales por supermercado y controla un presupuesto con el saldo restante.
 
@@ -71,6 +80,24 @@ A full stack real estate system that goes beyond CRUD: it manages properties, cl
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apachemaven&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black)
+
+---
+
+### 🎮 [E-Commerce Marketplace Gamer](https://github.com/ShanT237/EcommerceProductosGamer) — Multi-Vendor Marketplace Backend
+A multi-vendor marketplace for gaming products (peripherals, setup furniture, physical games, digital licenses and combos), built for *Advanced Programming / Software Engineering* at Universidad del Quindío with **Domain-Driven Design** and **Clean Architecture**. Team project with [Santiago Torres](https://github.com/ShanT237) and [José Bedoya](https://github.com/thelegendsxv); Angular frontend planned.
+
+- **Rich domain model:** aggregate roots (`Producto`, `Compra`), value objects as Java records, private constructors with factory methods that enforce business invariants (stock never negative, refunds within 48 h, one review per purchase, exclusive products, pre-sales)
+- **37 use cases** across purchases, catalog, combos, reviews and loyalty points, wishlists and notifications, accounts, and reports
+- **Security:** Spring Security with JWT (role-based `COMPRADOR` / `VENDEDOR`), BCrypt-hashed passwords, and user identity always taken from the token
+- **REST API** documented with Swagger, with paginated catalog search and sales / best-seller reports resolved in the database (H2 by default, MariaDB profile)
+- **Testing:** `@DataJpaTest` repository tests, secured endpoint tests (401 / 403 / 201), and an end-to-end integration test with `MockMvc`
+
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat&logo=gradle&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
+![DDD](https://img.shields.io/badge/DDD_+_Clean_Architecture-7B2CBF?style=flat)
 
 ---
 
@@ -118,6 +145,7 @@ Final project for *Databases I* at Universidad del Quindío: a desktop applicati
 **Backend**
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apachemaven&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat&logo=gradle&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-009688?style=flat)
 
 **Frontend & Mobile**
@@ -129,6 +157,7 @@ Final project for *Databases I* at Universidad del Quindío: a desktop applicati
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
 
 **DevOps & Tools**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
@@ -136,7 +165,7 @@ Final project for *Databases I* at Universidad del Quindío: a desktop applicati
 ![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat&logo=androidstudio&logoColor=white)
 
 **Concepts**
-Data Structures & Algorithms · REST API Design · Layered Architecture · OOP · Relational Databases
+Data Structures & Algorithms · REST API Design · DDD & Clean Architecture · JWT Security · Unit & Integration Testing · OOP · Relational Databases
 
 ---
 
