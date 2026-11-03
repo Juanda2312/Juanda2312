@@ -1,64 +1,68 @@
 <div align="center">
 
-# Juan David Tapiero Montoya
-### Aspiring Systems Engineer · Junior Full Stack Developer
+# Hi, I'm Juan David Tapiero Montoya 👋
+### Computer Science Student · Junior Full Stack & Mobile Developer
 
-Computer Science @ **Universidad del Quindío** · Armenia, CO
+Studying Computer Science at **Universidad del Quindío** · Armenia, Colombia 🇨🇴
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-david-tapiero-montoya-4834b02b3)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:juandavidtapiero8@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Juanda2312)
+I build web backends with **Spring Boot**, frontends with **Angular** and **React**, and mobile apps with **Flutter**.
 
-</div>
-
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Juanda2312&theme=tokyonight)](https://github.com/Juanda2312)
-
-</div>
-
-<div align="center">
-
-[![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Juanda2312&theme=tokyonight)](https://github.com/Juanda2312)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Juanda2312&theme=tokyonight)](https://github.com/Juanda2312)
-
-</div>
-
-<div align="center">
-
-[![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Juanda2312&theme=tokyonight)](https://github.com/Juanda2312)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Juanda2312&theme=tokyonight&utcOffset=-5)](https://github.com/Juanda2312)
-
-</div>
-
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Juanda2312&theme=tokyonight&hide_border=true)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-david-tapiero-montoya-4834b02b3)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:juandavidtapiero8@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Juanda2312)
 
 </div>
 
 ---
 
+## 🚀 Featured Project
+
+### 🛒 [ListaMercado](https://github.com/Juanda2312/ListaMercado)
+A 100% offline Android app to organize grocery shopping: manage products and supermarkets, build a shopping list with totals per supermarket, and track a budget with the remaining balance.
+
+- Smart search (case and accent insensitive) and filtering by supermarket
+- Two list views: **flat list** and **by supermarket**, with strike-through sync between them
+- Swipe to remove items with undo, and an optional budget (remaining shown in green/red)
+- Signed release APK, no internet permission, all data stored locally
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
+![Provider](https://img.shields.io/badge/State-Provider-5C2D91?style=flat)
+
+---
 
 ## 🛠️ Tech Stack
 
 **Languages**
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 ![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=flat&logo=elixir&logoColor=white)
 
-**Frameworks & Tools**
+**Backend**
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
+
+**Frontend & Mobile**
+
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+
+**Databases**
+
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
+
+**DevOps & Tools**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat&logo=androidstudio&logoColor=white)
 
 ---
 
@@ -69,7 +73,33 @@ Computer Science @ **Universidad del Quindío** · Armenia, CO
 
 ---
 
+## 📈 GitHub Stats
+
+<div align="center">
+
+[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Juanda2312&theme=tokyonight)](https://github.com/Juanda2312)
+
+[![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Juanda2312&theme=tokyonight)](https://github.com/Juanda2312)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Juanda2312&theme=tokyonight)](https://github.com/Juanda2312)
+
+[![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Juanda2312&theme=tokyonight)](https://github.com/Juanda2312)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Juanda2312&theme=tokyonight&utcOffset=-5)](https://github.com/Juanda2312)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Juanda2312&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
 ## 🌐 Languages
 
 - 🇨🇴 Spanish — Native
 - 🇺🇸 English — B2
+
+---
+
+<div align="center">
+
+⭐ Thanks for stopping by! Feel free to check my repos or reach out.
+
+</div>
