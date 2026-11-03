@@ -1,20 +1,46 @@
 <div align="center">
 
-🌐 **English** · [Español](README.es.md)
-
 # Hi, I'm Juan David Tapiero Montoya 👋
 ### Computer Science Student · Junior Full Stack & Mobile Developer
 
 Studying Computer Science at **Universidad del Quindío** · Armenia, Colombia 🇨🇴
 
 I build web backends with **Spring Boot**, frontends with **Angular** and **React**, and mobile apps with **Flutter**.
-I enjoy turning data-structure theory into real, working products.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-david-tapiero-montoya-4834b02b3)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:juandavidtapiero8@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Juanda2312)
 
 </div>
+
+<details>
+<summary><b>🇨🇴 Leer en español</b></summary>
+
+<br>
+
+### Hola, soy Juan David 👋
+Estudiante de **Ciencias de la Computación** en la **Universidad del Quindío** (Armenia, Colombia) y desarrollador junior full stack y móvil. Construyo backends con **Spring Boot**, frontends con **Angular** y **React**, y apps móviles con **Flutter**.
+
+#### 🏢 [PropTech](https://github.com/Juanda2312/PropTech) — Plataforma Inteligente de Gestión Inmobiliaria
+Un sistema full stack que va más allá del CRUD: gestiona inmuebles, clientes, asesores, visitas y operaciones, y analiza el comportamiento comercial. Sus colecciones principales (tabla hash, árbol AVL, grafo, pila, colas y lista enlazada) son **implementaciones propias, sin `java.util`**.
+
+- **Arquitectura en capas:** frontend en Angular 17 + API REST con Spring Boot 3 (Java 21), documentada con Swagger UI
+- **Estructuras de datos con propósito:** AVL para precios y rankings, grafo + BFS para relaciones cliente–inmueble, pila para deshacer, colas FIFO y de prioridad para visitas y alertas
+- **Motor de recomendaciones** con puntaje de 0 a 100, alertas automáticas y detección de comportamientos inusuales
+- **PropBot:** asistente con IA (LLM vía OpenRouter) con datos en vivo de la plataforma
+- **Dos roles:** panel de administración y portal del cliente, con persistencia en JSON
+
+#### 🛒 [ListaMercado](https://github.com/Juanda2312/ListaMercado) — App Offline para Organizar el Mercado
+Una app Android 100% offline para organizar las compras: gestiona productos y supermercados, arma la lista con totales por supermercado y controla un presupuesto con el saldo restante.
+
+- Búsqueda inteligente (sin distinguir mayúsculas ni tildes) y filtro por supermercado
+- Dos vistas: **plana** y **por supermercado**, con tachado sincronizado
+- Deslizar para quitar ítems con opción de deshacer, y presupuesto opcional (saldo en verde/rojo)
+- APK de release firmado, sin permiso de internet y con datos guardados localmente
+
+*Más abajo encuentras el stack tecnológico, certificaciones y estadísticas.*
+
+</details>
 
 ---
 
