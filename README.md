@@ -1,13 +1,14 @@
 <div align="center">
 
 # Hi, I'm Juan David Tapiero Montoya 👋
-### Computer Science Student · Junior Full Stack & Mobile Developer
+### Systems and Computer Engineering Student · Junior Full Stack & Mobile Developer
 
-Studying Computer Science at **Universidad del Quindío** · Armenia, Colombia 🇨🇴
+Studying Systems and Computer Engineering at **Universidad del Quindío** · Armenia, Colombia 🇨🇴
 
 I build web backends with **Spring Boot**, frontends with **Angular** and **React**, and mobile apps with **Flutter**.
 I enjoy turning data-structure theory into real, working products.
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-3FB950?style=for-the-badge&logo=githubpages&logoColor=white)](https://juanda2312.github.io/portafolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-david-tapiero-montoya-4834b02b3)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:juandavidtapiero8@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Juanda2312)
@@ -20,7 +21,9 @@ I enjoy turning data-structure theory into real, working products.
 <br>
 
 ### Hola, soy Juan David 👋
-Estudiante de **Ciencias de la Computación** en la **Universidad del Quindío** (Armenia, Colombia) y desarrollador junior full stack y móvil. Construyo backends con **Spring Boot**, frontends con **Angular** y **React**, y apps móviles con **Flutter**. Me gusta convertir la teoría de estructuras de datos en productos reales que funcionan.
+Estudiante de **Ingeniería de Sistemas y Computación** en la **Universidad del Quindío** (Armenia, Colombia) y desarrollador junior full stack y móvil. Construyo backends con **Spring Boot**, frontends con **Angular** y **React**, y apps móviles con **Flutter**. Me gusta convertir la teoría de estructuras de datos en productos reales que funcionan.
+
+🌐 **Mira mi portafolio:** [juanda2312.github.io/portafolio](https://juanda2312.github.io/portafolio/)
 
 #### 🏢 [PropTech](https://github.com/Juanda2312/PropTech) — Plataforma Inteligente de Gestión Inmobiliaria
 Un sistema full stack que va más allá del CRUD: gestiona inmuebles, clientes, asesores, visitas y operaciones, y analiza el comportamiento comercial. Sus colecciones principales (tabla hash, árbol AVL, grafo, pila, colas y lista enlazada) son **implementaciones propias, sin `java.util`**.
@@ -60,6 +63,12 @@ Proyecto final de *Bases de Datos I* en la Universidad del Quindío: una aplicac
 *Más abajo encuentras el stack tecnológico, certificaciones y estadísticas.*
 
 </details>
+
+---
+
+## 🌐 Portfolio
+
+My personal portfolio (bilingual ES/EN, plain HTML, CSS and JavaScript): **[juanda2312.github.io/portafolio](https://juanda2312.github.io/portafolio/)**
 
 ---
 
