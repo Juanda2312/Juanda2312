@@ -51,14 +51,15 @@ Una app Android 100% offline para organizar las compras: gestiona productos y su
 - Deslizar para quitar ítems con opción de deshacer, y presupuesto opcional (saldo en verde/rojo)
 - APK de release firmado, sin permiso de internet y con datos guardados localmente
 
-#### 📦 [Sistema de Gestión de Proveedores y Productos](https://github.com/ShanT237/relational-inventory-db) — Proyecto de Bases de Datos
-Proyecto final de *Bases de Datos I* en la Universidad del Quindío: una aplicación de escritorio que registra qué proveedores pueden suministrar qué productos, hecha **sin frameworks** (biblioteca estándar de Python y librerías puntuales) sobre una base de datos normalizada en SQL Server. Proyecto en equipo con [Santiago Torres](https://github.com/ShanT237) y [José Bedoya](https://github.com/thelegendsxv).
+#### 📦 [Sistema de Gestión de Proveedores y Productos](https://github.com/Juanda2312/relational-inventory-db) — Proyecto de Bases de Datos
+Proyecto final de *Bases de Datos I* en la Universidad del Quindío: una aplicación de escritorio que registra qué proveedores pueden suministrar qué productos, hecha **sin frameworks** (biblioteca estándar de Python y librerías puntuales) sobre una base de datos relacional normalizada (SQL Server en el proyecto original, SQLite en la demo ejecutable). Proyecto en equipo con [Santiago Torres](https://github.com/ShanT237) y [José Bedoya](https://github.com/thelegendsxv).
 
 - **Diseño relacional:** 9 tablas normalizadas, diagrama entidad-relación, diagrama relacional y diccionario de datos; la relación muchos a muchos proveedor–producto se resuelve con una tabla intermedia (precio y días de entrega)
 - **SQL avanzado:** consultas `JOIN` de varias tablas y subconsultas, todas parametrizadas para evitar inyección SQL
 - **Acceso por roles:** un administrador, usuarios tradicionales (CRUD completo) y esporádicos (solo consulta), con contraseñas cifradas con PBKDF2 y bitácora de entradas y salidas
 - **Reportes en PDF** con filtros elegidos por el usuario, generados con `reportlab`
 - **Arquitectura en tres capas** (presentación, lógica y datos) y despliegue de SQL Server con Docker
+- **Demo ejecutable para Windows:** [descarga `ProveedoresDemo.exe`](https://github.com/Juanda2312/relational-inventory-db/releases/latest) y ábrelo sin instalar nada (versión con SQLite; el proyecto original con SQL Server está en [ShanT237/relational-inventory-db](https://github.com/ShanT237/relational-inventory-db))
 
 *Más abajo encuentras el stack tecnológico, certificaciones y estadísticas.*
 
@@ -125,14 +126,15 @@ A 100% offline Android app to organize grocery shopping: manage products and sup
 
 ---
 
-### 📦 [Suppliers & Products Management System](https://github.com/ShanT237/relational-inventory-db) — Relational Database Project
-Final project for *Databases I* at Universidad del Quindío: a desktop application that tracks which suppliers can provide which products, built **without frameworks** (Python standard library plus targeted libraries) on top of a normalized SQL Server database. Team project with [Santiago Torres](https://github.com/ShanT237) and [José Bedoya](https://github.com/thelegendsxv).
+### 📦 [Suppliers & Products Management System](https://github.com/Juanda2312/relational-inventory-db) — Relational Database Project
+Final project for *Databases I* at Universidad del Quindío: a desktop application that tracks which suppliers can provide which products, built **without frameworks** (Python standard library plus targeted libraries) on top of a normalized relational database (SQL Server in the original project, SQLite in the downloadable demo). Team project with [Santiago Torres](https://github.com/ShanT237) and [José Bedoya](https://github.com/thelegendsxv).
 
 - **Relational design:** 9 normalized tables, ER diagram, relational diagram and data dictionary; the many-to-many supplier–product relation is resolved with a junction table (price and delivery days)
 - **Advanced SQL:** multi-table `JOIN` queries and subqueries (e.g. suppliers priced above average, products with no supplier), all parameterized to prevent SQL injection
 - **Role-based access:** one administrator, traditional users (full CRUD) and occasional users (read-only), with PBKDF2-hashed passwords and a login/logout audit log
 - **PDF reports** with user-selected filters, generated with `reportlab`
 - **Three-layer architecture** (presentation, business logic, data access) and a Docker-based setup for SQL Server
+- **Windows executable demo:** [download `ProveedoresDemo.exe`](https://github.com/Juanda2312/relational-inventory-db/releases/latest) and open it with no installation (SQLite version; the original SQL Server project lives at [ShanT237/relational-inventory-db](https://github.com/ShanT237/relational-inventory-db))
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-3776AB?style=flat)
