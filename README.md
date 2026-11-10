@@ -50,6 +50,7 @@ Una app Android 100% offline para organizar las compras: gestiona productos y su
 - Dos vistas: **plana** y **por supermercado**, con tachado sincronizado
 - Deslizar para quitar ítems con opción de deshacer, y presupuesto opcional (saldo en verde/rojo)
 - APK de release firmado, sin permiso de internet y con datos guardados localmente
+- **Descarga directa:** [`ListaMercado.apk`](https://github.com/Juanda2312/ListaMercado/releases/latest) para instalarla en Android (no está en Google Play)
 
 #### 📦 [Sistema de Gestión de Proveedores y Productos](https://github.com/Juanda2312/relational-inventory-db) — Proyecto de Bases de Datos
 Proyecto final de *Bases de Datos I* en la Universidad del Quindío: una aplicación de escritorio que registra qué proveedores pueden suministrar qué productos, hecha **sin frameworks** (biblioteca estándar de Python y librerías puntuales) sobre una base de datos relacional normalizada (SQL Server en el proyecto original, SQLite en la demo ejecutable). Proyecto en equipo con [Santiago Torres](https://github.com/ShanT237) y [José Bedoya](https://github.com/thelegendsxv).
@@ -118,6 +119,7 @@ A 100% offline Android app to organize grocery shopping: manage products and sup
 - Two list views: **flat list** and **by supermarket**, with strike-through sync between them
 - Swipe to remove items with undo, and an optional budget (remaining shown in green/red)
 - Signed release APK, no internet permission, all data stored locally
+- **Direct download:** [`ListaMercado.apk`](https://github.com/Juanda2312/ListaMercado/releases/latest) to install on Android (not on Google Play)
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
