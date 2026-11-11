@@ -28,10 +28,14 @@ Estudiante de **Ingeniería de Sistemas y Computación** en la **Universidad del
 #### 🏢 [PropTech](https://github.com/Juanda2312/PropTech) — Plataforma Inteligente de Gestión Inmobiliaria
 Un sistema full stack que va más allá del CRUD: gestiona inmuebles, clientes, asesores, visitas y operaciones, y analiza el comportamiento comercial. Sus colecciones principales (tabla hash, árbol AVL, grafo, pila, colas y lista enlazada) son **implementaciones propias, sin `java.util`**.
 
+🔗 **[Probar la demo en vivo](https://prop-tech-lake.vercel.app)** · [API y Swagger](https://proptech-api-3ebi.onrender.com/swagger-ui/index.html)
+<sub>El backend corre en un plan gratuito: si estaba inactivo, la primera carga puede tardar cerca de 1 minuto.</sub>
+
 - **Arquitectura en capas:** frontend en Angular 17 + API REST con Spring Boot 3 (Java 21), documentada con Swagger UI
+- **Desplegado en producción:** frontend en **Vercel** y backend empaquetado con **Docker** en **Render**, con CORS restringido y configuración por variables de entorno
 - **Estructuras de datos con propósito:** AVL para precios y rankings, grafo + BFS para relaciones cliente–inmueble, pila para deshacer, colas FIFO y de prioridad para visitas y alertas
 - **Motor de recomendaciones** con puntaje de 0 a 100, alertas automáticas y detección de comportamientos inusuales
-- **PropBot:** asistente con IA (LLM vía OpenRouter) con datos en vivo de la plataforma
+- **PropBot:** asistente con IA (LLM vía OpenRouter) con datos en vivo; las peticiones pasan por el backend, que mantiene la clave fuera del navegador y limita el modelo y los tokens
 - **Dos roles:** panel de administración y portal del cliente, con persistencia en JSON
 
 #### 🎮 [E-Commerce Marketplace Gamer](https://github.com/ShanT237/EcommerceProductosGamer) — Backend de Marketplace Multi-Vendedor
@@ -79,10 +83,16 @@ My personal portfolio (bilingual ES/EN, plain HTML, CSS and JavaScript): **[juan
 ### 🏢 [PropTech](https://github.com/Juanda2312/PropTech) — Smart Real Estate Management Platform
 A full stack real estate system that goes beyond CRUD: it manages properties, clients, advisors, visits and deals, and analyzes commercial behavior. Its core collections (hash table, AVL tree, graph, stack, queues, linked list) are **custom implementations, without `java.util`**.
 
+[![Live demo](https://img.shields.io/badge/Live_demo-Vercel-000000?style=flat&logo=vercel&logoColor=white)](https://prop-tech-lake.vercel.app)
+[![API](https://img.shields.io/badge/API_docs-Swagger-85EA2D?style=flat&logo=swagger&logoColor=black)](https://proptech-api-3ebi.onrender.com/swagger-ui/index.html)
+
+> The backend runs on a free tier, so the first request after inactivity can take about a minute.
+
 - **Layered architecture:** Angular 17 frontend + Spring Boot 3 REST API (Java 21), documented with Swagger UI
+- **Deployed to production:** frontend on **Vercel**, Dockerized backend on **Render**, with restricted CORS and environment-based configuration
 - **Data structures with a purpose:** AVL tree for price/ranking queries, graph + BFS for client–property relations, stack for undo, FIFO and priority queues for visits and alerts
 - **Recommendation engine** that scores properties from 0 to 100 against each client's profile, plus automatic alerts and unusual-behavior detection
-- **PropBot:** AI assistant (LLM via OpenRouter) that answers with live platform data, with different context for admins and clients
+- **PropBot:** AI assistant (LLM via OpenRouter) that answers with live platform data; requests go through the backend, which keeps the API key out of the browser and caps the model and token usage
 - **Two roles:** admin dashboard and client portal (favorites, history, interactions, recommendations), with JSON persistence between runs
 
 ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat&logo=openjdk&logoColor=white)
@@ -91,6 +101,9 @@ A full stack real estate system that goes beyond CRUD: it manages properties, cl
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apachemaven&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white)
 
 ---
 
@@ -177,6 +190,9 @@ Final project for *Databases I* at Universidad del Quindío: a desktop applicati
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat&logo=androidstudio&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white)
 
 **Concepts**
 Data Structures & Algorithms · REST API Design · DDD & Clean Architecture · JWT Security · Unit & Integration Testing · OOP · Relational Databases
