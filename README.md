@@ -60,7 +60,7 @@ Proyecto final de *Bases de Datos I* en la Universidad del Quindío: una aplicac
 - **Acceso por roles:** un administrador, usuarios tradicionales (CRUD completo) y esporádicos (solo consulta), con contraseñas cifradas con PBKDF2 y bitácora de entradas y salidas
 - **Reportes en PDF** con filtros elegidos por el usuario, generados con `reportlab`
 - **Arquitectura en tres capas** (presentación, lógica y datos) y despliegue de SQL Server con Docker
-- **Demo ejecutable para Windows:** [descarga `ProveedoresDemo.exe`](https://github.com/Juanda2312/relational-inventory-db/releases/latest) y ábrelo sin instalar nada (versión con SQLite; el proyecto original con SQL Server está en [ShanT237/relational-inventory-db](https://github.com/ShanT237/relational-inventory-db))
+- **Demo ejecutable para Windows, Linux y macOS:** [descarga el archivo de tu sistema](https://github.com/Juanda2312/relational-inventory-db/releases/latest) y ábrelo sin instalar nada (versión con SQLite; el proyecto original con SQL Server está en [ShanT237/relational-inventory-db](https://github.com/ShanT237/relational-inventory-db))
 
 *Más abajo encuentras el stack tecnológico, certificaciones y estadísticas.*
 
@@ -136,12 +136,13 @@ Final project for *Databases I* at Universidad del Quindío: a desktop applicati
 - **Role-based access:** one administrator, traditional users (full CRUD) and occasional users (read-only), with PBKDF2-hashed passwords and a login/logout audit log
 - **PDF reports** with user-selected filters, generated with `reportlab`
 - **Three-layer architecture** (presentation, business logic, data access) and a Docker-based setup for SQL Server
-- **Windows executable demo:** [download `ProveedoresDemo.exe`](https://github.com/Juanda2312/relational-inventory-db/releases/latest) and open it with no installation (SQLite version; the original SQL Server project lives at [ShanT237/relational-inventory-db](https://github.com/ShanT237/relational-inventory-db))
+- **Executable demo for Windows, Linux and macOS:** [download the file for your system](https://github.com/Juanda2312/relational-inventory-db/releases/latest) and open it with no installation (SQLite version; the original SQL Server project lives at [ShanT237/relational-inventory-db](https://github.com/ShanT237/relational-inventory-db))
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-3776AB?style=flat)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 
 ---
 
